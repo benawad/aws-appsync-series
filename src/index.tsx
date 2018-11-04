@@ -4,7 +4,6 @@ import AWSAppSyncClient, { AUTH_TYPE } from "aws-appsync";
 import { ApolloProvider } from "react-apollo";
 import { Rehydrated } from "aws-appsync-react"; // this needs to also be installed when working with React
 
-import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import AppSyncConfig from "./aws-exports";
