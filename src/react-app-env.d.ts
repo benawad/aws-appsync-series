@@ -1,5 +1,7 @@
 /// <reference types="react-scripts" />
 
+declare module "aws-amplify-react";
+
 import * as React from "react";
 
 declare module "react" {
